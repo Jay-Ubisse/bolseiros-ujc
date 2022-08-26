@@ -3,6 +3,4 @@
 ## Claboradores
 - Jose Bila
 - Jay Ubisse 
-
-
-kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+- Gedia Jangamo
