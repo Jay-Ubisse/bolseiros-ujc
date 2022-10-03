@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="./assets/styles/output.css">
 </head>
 <body>
-    <h1 class="text-2xl mt-10 w-1/5 mx-auto m-[200px] bg-[#22A5DB] flex text-ellipsis">Hello</h1>
+    <header>
+        <?php
+            include "./views/components/header.php";
+        ?>
+    </header>
 </body>
 </html>
