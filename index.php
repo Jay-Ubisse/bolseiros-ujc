@@ -8,10 +8,6 @@
     <link rel="stylesheet" href="./assets/styles/output.css">
 </head>
 <body>
-    <header>
-        <?php
-            include "./views/components/header.php";
-        ?>
-    </header>
+   
 </body>
 </html>
