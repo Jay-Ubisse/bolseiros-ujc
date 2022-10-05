@@ -27,9 +27,7 @@
         </div>
 
         <div class="flex justify-evenly mt-5 ml-2">
-            <a href="#" class="bg-[#044865] text-center text-white font-medium py-2 px-4 w-[200px] rounded-lg">Regulamento</a>
-            <a href="#" class="bg-[#044865] text-center text-white font-medium py-2 px-4 w-[200px] rounded-lg">Inserir aproveitamento</a>
-            <a href="#" class="bg-[#044865] text-center text-white font-medium py-2 px-4 w-[200px] rounded-lg">Relatorio semestral</a>
+            <a href="#" class="bg-[#044865] text-center text-white font-medium py-2 px-4 w-[200px] rounded-lg">Imprimir</a>
         </div>
 
     </main>
