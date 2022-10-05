@@ -90,7 +90,7 @@
                             <label for="contacts" class="font-semibold">Contactos</label>
                             <input type="text" name="contacts" placeholder="+258" size="4" disabled class="bg-gray-300 focus:outline-none">
                             <input type="number" name="contacts" size="20" class="bg-gray-300 focus:outline-none">
-                            <input type="text" name="contacts" placeholder="+258" disabled class="bg-gray-300 focus:outline-none">
+                            <input type="text" name="contacts" placeholder="+258" size="4" disabled class="bg-gray-300 focus:outline-none">
                             <input type="number" name="contacts" class="bg-gray-300 focus:outline-none">
                         </td>
                     </tr>
