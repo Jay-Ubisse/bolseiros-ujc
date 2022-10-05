@@ -106,6 +106,11 @@
                             <input type="number" name="entry year" class="bg-gray-300 focus:outline-none">
                             <label for="exit-year" class="font-semibold">Ano de saída</label>
                             <input type="number" name="exit-year" class="bg-gray-300 focus:outline-none">
+                            <label for="bag-type" class="font-semibold">Tipo de bolsa</label>
+                            <select name="bag-type" class="bg-gray-300 focus:outline-none w-[12%]">
+                                <option value="full">Completa</option>
+                                <option value="partial">Parcial</option>
+                            </select>
                         </td>
                     </tr>
                 </tbody>
