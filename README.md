@@ -1,9 +1,2 @@
-# Sistema de gestao de estudantes bolseiros
+# Sistema de gestão de estudantes bolseiros da Universidade Joaquim Chissano
 
-## Claboradores
-- Jose Bila
-- Jay Ubisse 
-- Gedia Jangamo
-
-##Ficheiros obrigadoritos para o desenvolvimento
-- node_modules
