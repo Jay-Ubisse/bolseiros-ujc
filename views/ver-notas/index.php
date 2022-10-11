@@ -75,7 +75,7 @@
             </div>
         </div>
 
-        <div class="flex justify-center">
+        <div class="flex justify-center ">
              <button class="bg-[#044865] text-white py-2 px-4 w-[150px] rounded-lg font-medium mt-5">Guardar</button>
         </div>
        
