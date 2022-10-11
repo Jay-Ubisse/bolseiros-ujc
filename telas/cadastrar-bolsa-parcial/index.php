@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastrar - Gestão de Bolseiros</title>
+    <title>Cadastrar Bolsa parcial - Gestão de Bolseiros</title>
     <link rel="stylesheet" href="./../../assets/styles/output.css">
     <style>
         #aside {
@@ -17,12 +17,12 @@
 <body>
     <header>
         <?php
-        include "../components/header.php";
+        include "../componentes/header.php";
         ?>
     </header>
     <aside>
         <?php
-        include "../components/aside.php";
+        include "../componentes/aside.php";
         ?>
     </aside>
     <main class=" float-right w-4/5 mt-8">
@@ -128,25 +128,15 @@
                     </tr>
                     <tr>
                         <td class="p-1">
+                            <label for="province" class="font-semibold">Província</label>
+                            <input type="text" name="province" class="bg-gray-300 focus:outline-none">
+                        </td>
+                        <td class="p-1" colspan="2">
                             <label for="course" class="font-semibold">Sexo</label>
                             <select name="course" class="bg-gray-300 focus:outline-none w-1/2">
                                 <option value="female">Feminino</option>
                                 <option value="male">Masculino</option>
                             </select>
-                        </td>
-                        <td class="p-1">
-                            <label for="neighborhood" class="font-semibold">Bairo</label>
-                            <input type="text" name="neighborhood" class="bg-gray-300 focus:outline-none">
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="p-1">
-                            <label for="province" class="font-semibold">Província</label>
-                            <input type="text" name="province" class="bg-gray-300 focus:outline-none">
-                        </td>
-                        <td class="p-1">
-                            <label for="state" class="font-semibold">Distrito</label>
-                            <input type="text" name="state" class="bg-gray-300 focus:outline-none">
                         </td>
                     </tr>
                     <tr>
@@ -154,7 +144,7 @@
                             <label for="contacts" class="font-semibold">Contactos</label>
                             <input type="text" name="contacts" placeholder="+258" size="4" disabled class="bg-gray-300 focus:outline-none">
                             <input type="number" name="contacts" size="20" class="bg-gray-300 focus:outline-none">
-                            <input type="text" name="contacts" placeholder="+258" disabled class="bg-gray-300 focus:outline-none">
+                            <input type="text" name="contacts" placeholder="+258" size="4" disabled class="bg-gray-300 focus:outline-none">
                             <input type="number" name="contacts" class="bg-gray-300 focus:outline-none">
                         </td>
                     </tr>

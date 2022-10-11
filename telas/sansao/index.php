@@ -10,12 +10,12 @@
 <body>
 <header>
         <?php
-        include "../components/header.php";
+        include "../componentes/header.php";
         ?>
     </header>
     <aside>
         <?php
-        include "../components/aside.php";
+        include "../componentes/aside.php";
         ?>
     </aside>
 

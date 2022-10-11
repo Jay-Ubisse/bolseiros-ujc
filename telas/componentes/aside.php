@@ -7,8 +7,9 @@
 
     <div class="text-white flex flex-col text-center font-bold">
         <a href="../pagina-inicial/" class="bg-[#044865] mt-1 p-2 hover:bg-[#078DB7]">Página inicial</a>
-        <a href="../cadastrar-bolsa/" class="bg-[#044865] mt-1 p-2 hover:bg-[#078DB7] ">Cadastrar bolseiro</a>
-        <a href="../ver-bolseiros/" class="bg-[#044865] mt-1 p-2 hover:bg-[#078DB7]">Ver bolseiros</a>
+        <a href="../cadastrar-bolsa-completa/" class="bg-[#044865] mt-1 p-2 hover:bg-[#078DB7] ">Cadastrar Bolsa Completa</a>
+        <a href="../cadastrar-bolsa-parcial/" class="bg-[#044865] mt-1 p-2 hover:bg-[#078DB7] ">Cadastrar Bolsa Parcial</a>
+        <a href="../ver-bolseiros/" class="bg-[#044865] mt-1 p-2 hover:bg-[#078DB7]">Ver Bolseiros</a>
         <a href="../relatorio/" class="bg-[#044865] mt-1 p-2 hover:bg-[#078DB7]">Relatório</a>
         <a href="../../" class="bg-[#044865] mt-1 p-2 hover:bg-[#078DB7]">Sair</a>
     </div>
