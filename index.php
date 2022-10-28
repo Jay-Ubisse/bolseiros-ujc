@@ -23,7 +23,7 @@
         </div>
 
         <div class="flex flex-col justify-center bg-slate-200 w-2/5 p-28" >
-            <label for="Usuaio" class="font-bold">Usuario</label>
+            <label for="Usuaio" class="font-bold">Usuariooo</label>
             <input type="text" name="usuario " class=" border-black rounded-lg h-12 outline-none w-80 my-5">
 
             <label for="Senha"class="font-bold">Senha</label>
