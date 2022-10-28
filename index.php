@@ -9,7 +9,9 @@
 </head>
 <body>
 
-<div class="flex justify-center ">
+<div class="flex justify-center 
+
+">
         <div class="bg-[#22A5DB] mt-0 w-1/4 h-[calc(100vh)] border-t-2 border-white" id="aside">
 
                 <div class=" flex flex-col justify-center items-center py-6 ">
