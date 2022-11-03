@@ -1,7 +1,5 @@
 <?php
 require "./assets/scripts/php/conexao_bd/conexao.php";
-session_start();
-
 ?>
 
 <!DOCTYPE html>
@@ -36,6 +34,7 @@ session_start();
                 if ($password !== $senha) {
                     echo "<h2>Palavra-passe inválida!</h2>\n";
                 } else {
+                    session_start();
                     $_SESSION["login"] = $row;
                     header("location: ./telas/pagina-inicial");
                 }
