@@ -2,7 +2,7 @@
 
     <div class=" flex flex-col justify-center items-center py-6 ">
      <img src="../../assets/img/user.png" alt="userimage " class="h-20">
-     <p class="font-bold text-white mt-3 text-xl">Nome do usuário</p>
+     <p class="font-bold text-white mt-3 text-xl"><?php echo $data["utilizador"] ?></p>
     </div>
 
     <div class="text-white flex flex-col text-center font-bold">
