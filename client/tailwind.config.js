@@ -2,7 +2,7 @@
 module.exports = {
   content: [
     "./*.php",
-    "./telas/**/*.php",
+    "./pages/**/*.php",
   ],
   theme: {
     extend: {},

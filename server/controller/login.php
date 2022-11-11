@@ -1,5 +1,5 @@
 <?php 
-    require_once '../conexao/conexao.php';
+    require_once '../connection/connection.php';
     require_once 'Usuario.php'; //Importar a classe usuario
 
 

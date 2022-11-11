@@ -1,12 +1,13 @@
 <?php
     session_start();
+
      class Usuario{
 
         public function login($utilizador , $senha){
-            global $conexao;
+            global $connection;
 
             $sql = "SELECT * FROM usuario WHERE utilizador = :utilizador";
-            $sql = $conexao->prepare($sql); 
+            $sql = $connection->prepare($sql); 
             $sql-> bindValue(":utilizador", $utilizador);
             $sql->execute();
 
