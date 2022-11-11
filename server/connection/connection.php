@@ -13,7 +13,7 @@
  define("PASSWORD", "");
 
 try {
-    $conexao = new PDO("mysql:host=".HOST.";dbname=".DBNAME, USER, PASSWORD);
+    $connection = new PDO("mysql:host=".HOST.";dbname=".DBNAME, USER, PASSWORD);
 } 
 catch (PDOException $m) {
     echo $m->getMessage();    
