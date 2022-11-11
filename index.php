@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -8,7 +11,12 @@
     <link rel="stylesheet" href="./assets/styles/output.css">
 </head>
 <body>
-
+            <?php
+                if(isset($_SESSION["auth"]) ) {
+                    echo $_SESSION["auth"];
+                    unset($_SESSION["auth"]);
+                } 
+            ?>
 <div class="flex justify-center ">
         <div class="bg-[#22A5DB] mt-0 w-1/4 h-[calc(100vh)] border-t-2 border-white" id="aside">
 
@@ -21,8 +29,7 @@
                 </div>
     
         </div>
-       
-        <form class="flex flex-col justify-center bg-slate-200 w-2/5 p-28"  action="login.php" method="POST">
+        <form class="flex flex-col justify-center bg-slate-200 w-2/5 p-28"  action="./server/controller/login.php" method="POST">
           
             <label for="Usuaio" class="font-bold">Utilizador</label>
                 <input type="text" name="utilizador" class=" border-black rounded-lg h-12 outline-none w-80 my-5">
