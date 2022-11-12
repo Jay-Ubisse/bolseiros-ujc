@@ -19,11 +19,12 @@
         ?>
     </aside>
     <main>
-        <div class="mt-12 flex justify-center text-white font-bold">
-            <a href="regulamento_B.php"> <div class="bg-[#D9D9D9] h-52 mr-16 font-semibold text-2xl w-72 flex items-center px-4">Regulamento da Bolsa</div> </a>
+        <div class="mt-12 flex justify-center text-white font-bold ">
+            <a href="regulamento_B.php"> <div class="bg-[#D9D9D9] h-52 mr-16 ml-16 font-semibold text-2xl w-72 flex items-center px-4">Regulamento da Bolsa</div> </a>
            
             <a href="regulamento_R.php"> <div class="bg-[#D9D9D9] h-52 font-semibold text-2xl w-72 flex items-center text-center px-4">Regulamento da Resid&ecirc;ncia</div> </a>
-
+            
+            <a href="#"> <div class="bg-[#D9D9D9] h-52 mr-16 ml-16 font-semibold text-2xl w-72 flex items-center px-4">Adicionar Funcionario</div> </a>
         </div>
     </main>
 </body>

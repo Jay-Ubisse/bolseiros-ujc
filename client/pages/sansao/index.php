@@ -31,41 +31,45 @@
             <div class="flex justify-start ml-28 mt-14">
             <div class="flex flex-col">
                 <label class="font-bold text-lg text-left py-3 mb-2">Infra&ccedil;&atilde;o</label>
-                <input type="text" name="infracao" class="bg-[#F2F4F9] w-[650px] h-8 text-center mb-2">
-                <input type="text" name="infracao" class="bg-[#F2F4F9] w-[650px] h-8 text-center mb-2">
-                <input type="text" name="infracao" class="bg-[#F2F4F9] w-[650px] h-8 text-center mb-2">
-                <input type="text" name="infracao" class="bg-[#F2F4F9] w-[650px] h-8 text-center mb-2">
-                <input type="text" name="infracao" class="bg-[#F2F4F9] w-[650px] h-8 text-center mb-2">
-                <input type="text" name="infracao" class="bg-[#F2F4F9] w-[650px] h-8 text-center mb-2">
-                <input type="text" name="infracao" class="bg-[#F2F4F9] w-[650px] h-8 text-center mb-2">
+                <input type="text" name="infracao" class="bg-[#d3dcf5] w-[630px] h-8 text-center mb-2 outline-none">
+                <input type="text" name="infracao" class="bg-[#d3dcf5] w-[630px] h-8 text-center mb-2 outline-none">
+                <input type="text" name="infracao" class="bg-[#d3dcf5] w-[630px] h-8 text-center mb-2 outline-none">
+                <input type="text" name="infracao" class="bg-[#d3dcf5] w-[630px] h-8 text-center mb-2 outline-none">
+                <input type="text" name="infracao" class="bg-[#d3dcf5] w-[630px] h-8 text-center mb-2 outline-none">
+                <input type="text" name="infracao" class="bg-[#d3dcf5] w-[630px] h-8 text-center mb-2 outline-none">
+                <input type="text" name="infracao" class="bg-[#d3dcf5] w-[630px] h-8 text-center mb-2 outline-none">
                 
             </div>
 
-            <div class="flex flex-col ml-8 ">
-                <label class="font-bold text-lg text-left py-3 mb-2">Sans&ccedil;o</label>
-                <input type="text" name="status" class="bg-[#F2F4F9] w-32 h-8 text-center mb-2">
-                <input type="text" name="status" class="bg-[#F2F4F9] w-32 h-8 text-center mb-2">
-                <input type="text" name="status" class="bg-[#F2F4F9] w-32 h-8 text-center mb-2">
-                <input type="text" name="status" class="bg-[#F2F4F9] w-32 h-8 text-center mb-2">
-                <input type="text" name="status" class="bg-[#F2F4F9] w-32 h-8 text-center mb-2">
-                <input type="text" name="status" class="bg-[#F2F4F9] w-32 h-8 text-center mb-2">
-                <input type="text" name="status" class="bg-[#F2F4F9] w-32 h-8 text-center mb-2">
+            <div class="flex flex-col ml-7 ">
+                <label class="font-bold text-lg text-left py-3 mb-2">San&ccedil;&atilde;o</label>
+                <input type="text" name="status" class="bg-[#d3dcf5] w-32 h-8 text-center mb-2 outline-none">
+                <input type="text" name="status" class="bg-[#d3dcf5] w-32 h-8 text-center mb-2 outline-none">
+                <input type="text" name="status" class="bg-[#d3dcf5] w-32 h-8 text-center mb-2 outline-none">
+                <input type="text" name="status" class="bg-[#d3dcf5] w-32 h-8 text-center mb-2 outline-none">
+                <input type="text" name="status" class="bg-[#d3dcf5] w-32 h-8 text-center mb-2 outline-none">
+                <input type="text" name="status" class="bg-[#d3dcf5] w-32 h-8 text-center mb-2 outline-none">
+                <input type="text" name="status" class="bg-[#d3dcf5] w-32 h-8 text-center mb-2 outline-none">
             </div>
 
-            <div class="flex flex-col ml-8 ">
+            <div class="flex flex-col ml-7 ">
                 <label class="font-bold text-lg text-left py-3 mb-2">Status</label>
-                <input type="text" name="status" class="bg-[#F2F4F9] w-32 h-8 text-center mb-2">
-                <input type="text" name="status" class="bg-[#F2F4F9] w-32 h-8 text-center mb-2">
-                <input type="text" name="status" class="bg-[#F2F4F9] w-32 h-8 text-center mb-2">
-                <input type="text" name="status" class="bg-[#F2F4F9] w-32 h-8 text-center mb-2">
-                <input type="text" name="status" class="bg-[#F2F4F9] w-32 h-8 text-center mb-2">
-                <input type="text" name="status" class="bg-[#F2F4F9] w-32 h-8 text-center mb-2">
-                <input type="text" name="status" class="bg-[#F2F4F9] w-32 h-8 text-center mb-2">
+                <input type="text" name="status" class="bg-[#d3dcf5] w-32 h-8 text-center mb-2 outline-none">
+                <input type="text" name="status" class="bg-[#d3dcf5] w-32 h-8 text-center mb-2 outline-none">
+                <input type="text" name="status" class="bg-[#d3dcf5] w-32 h-8 text-center mb-2 outline-none">
+                <input type="text" name="status" class="bg-[#d3dcf5] w-32 h-8 text-center mb-2 outline-none">
+                <input type="text" name="status" class="bg-[#d3dcf5] w-32 h-8 text-center mb-2 outline-none">
+                <input type="text" name="status" class="bg-[#d3dcf5] w-32 h-8 text-center mb-2 outline-none">
+                <input type="text" name="status" class="bg-[#d3dcf5] w-32 h-8 text-center mb-2 outline-none">
             </div>
-        </div>
+        </div> 
+
+
+
 
         <div class="flex justify-end">
-             <button class="bg-[#044865] text-white py-2 px-4 w-[150px] rounded-lg font-medium mt-8 mr-[170px] ">Guardar</button>
+            <a href="./../relatorio/index.php" class="bg-[#044865] text-white py-2 px-4 w-[150px] rounded-lg font-medium mt-8 mr-[40px] text-center">Guardar</a>
+
         </div>
     </main>
 </body>
