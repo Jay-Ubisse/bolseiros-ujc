@@ -1,8 +1,13 @@
+<?php
+    session_start();
+
+?>
+
 <div class="bg-[#22A5DB] mt-0 w-1/5 h-[calc(100vh-80px)] border-t-2 border-white float-left"  id="aside">
 
     <div class=" flex flex-col justify-center items-center py-6 ">
      <img src="./../../assets/img/user.png" alt="userimage " class="h-20">
-     <p class="font-bold text-white mt-3 text-xl">Nome do usuário</p>
+     <p class="font-bold text-white mt-3 text-xl"><?php echo $_SESSION["user-data"]["utilizador"]; ?></p>
     </div>
 
     <div class="text-white flex flex-col text-center font-bold">

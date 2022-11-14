@@ -1,5 +1,5 @@
 <?php 
-    require"./conexao/conexao.php";
+    require"../../../server/connection/connection.php";
 ?>
 <!DOCTYPE html>
 <html lang="pt">
@@ -17,9 +17,6 @@
         }
     </style>
     <script>
-        function testar() {
-            alert("oii");
-        }
         $(document).ready(function () {
             $("#parte-2").hide();
             $("#parte-1").show();
@@ -70,16 +67,9 @@
                             <td class="p-1">
                                 <label for="course" class="font-semibold">Curso</label>
                                 <select name="Curso">
-                                    <option>Escolha</option>
-                                    <?php
-                                        $sql = $conexao->prepare("SELECT * FROM bolo") ;
-                                        $sql->execute();
-                                        $result = $cmd->fetchAll();
-                                        while ($row2 = mysqli_fetch_assoc($result)){?>
-                                    <option value="<?php echo $row2['id'];?>"><?php echo $row2['nome'];?>
-                                    </option><?php
-                                        }
-                                        ?>
+                                    <option>AP</option>
+                                    <option>ETSI</option>
+                                    <option>RID</option>
                                 </select> 
                             </td>
                         </tr>

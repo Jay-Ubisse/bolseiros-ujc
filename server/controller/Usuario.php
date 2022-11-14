@@ -15,6 +15,7 @@
                 $resultado = $sql->fetch(PDO::FETCH_ASSOC);
 
                 if($resultado["senha"] == md5($senha)) {
+                    $_SESSION["user-data"] = $resultado;
                     return true;
                 } else {
                     $_SESSION["auth"] = "Senha invalida";
