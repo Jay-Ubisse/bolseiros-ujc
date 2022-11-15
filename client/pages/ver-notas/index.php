@@ -85,7 +85,7 @@
         </div>
 
         <div class="flex justify-center ">
-        <a href="./../relatorio/index.php" class="bg-[#044865] text-white py-2 px-4 w-[150px] rounded-lg font-medium mt-5 ml-[250px] text-center">Guardar</a>
+        <a href="./../perfil/index.php" class="bg-[#044865] text-white py-2 px-4 w-[150px] rounded-lg font-medium mt-5 ml-[250px] text-center">Guardar</a>
         </div>
        
     </main>

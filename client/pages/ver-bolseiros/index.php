@@ -42,7 +42,7 @@
                         </td>
                         <td>
                             <div class="ml-1 text-lg ">
-                                <a href="#" class="bg-[#044865] text-white mr-0 py-2 px-4 font-medium">Ver perfil</a>
+                                <a href="../perfil/index.php" class="bg-[#044865] text-white mr-0 py-2 px-4 font-medium">Ver perfil</a>
                                 <a href="#" class="bg-[#044865] text-white mr-0 py-2 px-4 font-medium">Actualizar</a>
                                
                             </div>
@@ -61,7 +61,7 @@
                         </td>
                         <td>
                             <div class="ml-1 text-lg">
-                                <a href="#" class="bg-[#044865] text-white mr-0 py-2 px-4 font-medium">Ver perfil</a>
+                                <a href="../perfil/index.php" class="bg-[#044865] text-white mr-0 py-2 px-4 font-medium">Ver perfil</a>
                                 <a href="#" class="bg-[#044865] text-white mr-0 py-2 px-4 font-medium">Actualizar</a>
                             </div>
                         </td>
@@ -79,8 +79,8 @@
                         </td>
                         <td>
                             <div class="ml-1 text-lg">
-                                <a href="../perfil/" class="bg-[#044865] text-white mr-0 py-2 px-4 font-medium">Ver perfil</a>
-                                <a href="../perfil/" class="bg-[#044865] text-white mr-0 py-2 px-4 font-medium">Actualizar</a>
+                                <a href="../perfil/index.php" class="bg-[#044865] text-white mr-0 py-2 px-4 font-medium">Ver perfil</a>
+                                <a href="#" class="bg-[#044865] text-white mr-0 py-2 px-4 font-medium">Actualizar</a>
                               
                             </div>
                         </td>

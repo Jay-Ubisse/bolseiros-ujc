@@ -29,17 +29,17 @@
                 <!-- tabela -->
          <table class="table-auto border-collapse border border-slate-400 mt-32 w-[900px] ml-28">
             <thead>
-               <tr>
-                  <th class= " bg-[#044865] text-base text-white py-1 ">Nome</th>
-                   <th class=" bg-[#044865] text-base text-white py-1 ">Sexo</th>
-                   <th class=" bg-[#044865] text-base text-white py-1 ">provincia</th>
-                   <th class=" bg-[#044865] text-base text-white py-1 ">Curso</th>
-                   <th class=" bg-[#044865] text-base text-white py-1 ">Bolsa</th>
+               <tr class="bg-[#044865] ">
+                  <th class= "  text-base text-white py-1 ">Nome</th>
+                   <th class="  text-base text-white py-1 ">Sexo</th>
+                   <th class="  text-base text-white py-1 ">provincia</th>
+                   <th class="  text-base text-white py-1 ">Curso</th>
+                   <th class="  text-base text-white py-1 ">Bolsa</th>
                 </tr>
             </thead>
             <tbody>
-             <tr>
-               <td class="border border-black py-2 text-base text-center px-2">Gedia Genifa Lucas Jangamo</td>
+             <tr class="bg-gray-200">
+               <td class="border  border-black py-2 text-base text-center px-2">Gedia Genifa Lucas Jangamo</td>
                <td class="border border-black py-2 text-base text-center ">Feminino</td>
                <td class="border border-black py-2 text-base text-center ">Maputo</td>
                <td class="border border-black py-2 text-base text-center ">Engenharia em Tecnologias e Sistemas de Informa&ccedil;&atilde;o</td>
@@ -54,7 +54,7 @@
                <td class="border border-black py-2 text-base text-center ">Completa</td>
             </tr>
             
-            <tr>
+            <tr class="bg-gray-200">
                <td class="border border-black py-2 text-base text-center px-2">Gedia Genifa Lucas Jangamo</td>
                <td class="border border-black py-2 text-base text-center ">Feminino</td>
                <td class="border border-black py-2 text-base text-center ">Maputo</td>
@@ -74,16 +74,16 @@
 
 
 
-       <div class="flex justify-evenly mt-28 ml-4">
+       <!-- <div class="flex justify-evenly mt-28 ml-4">
             <a href="#" class="bg-[#044865] text-center text-white font-medium py-2 px-2 w-[170px] rounded-lg">Regulamento</a>
             <a href="./../ver-notas/index.php" class="bg-[#044865] text-center text-white font-medium py-2 px-2 w-[170px] rounded-lg">Aproveitamento</a>
             <a href="./../perfil/index.php" class="bg-[#044865] text-center text-white font-medium py-2 px-2 w-[170px] rounded-lg">Relat&oacute;rio Semestral</a>
             <a href="./../sansao/index.php" class="bg-[#044865] text-center text-white font-medium py-2 px-2 w-[170px] rounded-lg">Imprimir</a>
-        </div>
-<!--     
-        <div class="flex justify-end">
-             <button class="bg-[#044865] text-white py-2 px-4 w-[150px] rounded-lg font-medium mt-28 mr-[70px] ">Imprimir</button>
         </div> -->
+    
+         <div class="flex justify-end">
+             <button class="bg-[#044865] text-white py-2 px-4 w-[150px] rounded-lg font-medium mt-28 mr-[70px] ">Imprimir</button>
+        </div> 
 
     </main>
 </body>

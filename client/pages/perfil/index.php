@@ -26,17 +26,17 @@
                 <!-- Carregue aqui os dados do bolseiro -->
         </div>
 
-        <!-- <div class="flex justify-evenly mt-5 ml-2">
-            <a href="#" class="bg-[#044865] text-center text-white font-medium py-2 px-2 w-[170px] rounded-lg">Regulamento</a>
-            <a href="#" class="bg-[#044865] text-center text-white font-medium py-2 px-2 w-[170px] rounded-lg">Aproveitamento</a>
+        <div class="flex justify-evenly mt-5 ml-2">
+            <a href="./../sansao/index.php" class="bg-[#044865] text-center text-white font-medium py-2 px-2 w-[170px] rounded-lg">Regulamento</a>
+            <a href="../ver-notas/index.php" class="bg-[#044865] text-center text-white font-medium py-2 px-2 w-[170px] rounded-lg">Aproveitamento</a>
             <a href="#" class="bg-[#044865] text-center text-white font-medium py-2 px-2 w-[170px] rounded-lg">Relat&oacute;rio Semestral</a>
             <a href="#" class="bg-[#044865] text-center text-white font-medium py-2 px-2 w-[170px] rounded-lg">Imprimir</a>
-        </div> -->
+        </div>
 
-        <div class="flex justify-end">
+        <!-- <div class="flex justify-end">
             <a href="./../relatorio/index.php" class="bg-[#044865] text-white py-2 px-4 w-[150px] rounded-lg font-medium mt-8 mr-[40px] text-center">Imprimir</a>
 
-        </div>
+        </div> -->
 
     </main>
 </body>

@@ -54,13 +54,52 @@
 
             <div class="flex flex-col ml-7 ">
                 <label class="font-bold text-lg text-left py-3 mb-2">Status</label>
-                <input type="text" name="status" class="bg-[#d3dcf5] w-32 h-8 text-center mb-2 outline-none">
-                <input type="text" name="status" class="bg-[#d3dcf5] w-32 h-8 text-center mb-2 outline-none">
-                <input type="text" name="status" class="bg-[#d3dcf5] w-32 h-8 text-center mb-2 outline-none">
-                <input type="text" name="status" class="bg-[#d3dcf5] w-32 h-8 text-center mb-2 outline-none">
-                <input type="text" name="status" class="bg-[#d3dcf5] w-32 h-8 text-center mb-2 outline-none">
-                <input type="text" name="status" class="bg-[#d3dcf5] w-32 h-8 text-center mb-2 outline-none">
-                <input type="text" name="status" class="bg-[#d3dcf5] w-32 h-8 text-center mb-2 outline-none">
+                <div >
+                    <select name="semestre" class="bg-[#d3dcf5] w-32 h-8 text-center mb-2 outline-none">
+                        <option value="semestre">Pendente</option>
+                        <option value="semestre">Resolvido</option>
+                    </select>
+               </div>
+
+               <div >
+                    <select name="semestre" class="bg-[#d3dcf5] w-32 h-8 text-center mb-2 outline-none">
+                        <option value="semestre">Pendente</option>
+                        <option value="semestre">Resolvido</option>
+                    </select>
+               </div>
+
+                 <div >
+                    <select name="semestre" class="bg-[#d3dcf5] w-32 h-8 text-center mb-2 outline-none">
+                        <option value="semestre">Pendente</option>
+                        <option value="semestre">Resolvido</option>
+                    </select>
+                 </div>
+
+                <div >
+                    <select name="semestre" class="bg-[#d3dcf5] w-32 h-8 text-center mb-2 outline-none">
+                        <option value="semestre">Pendente</option>
+                        <option value="semestre">Resolvido</option>
+                    </select>
+               </div>
+               <div >
+                    <select name="semestre" class="bg-[#d3dcf5] w-32 h-8 text-center mb-2 outline-none">
+                        <option value="semestre">Pendente</option>
+                        <option value="semestre">Resolvido</option>
+                    </select>
+               </div>
+               <div >
+                    <select name="semestre" class="bg-[#d3dcf5] w-32 h-8 text-center mb-2 outline-none">
+                        <option value="semestre">Pendente</option>
+                        <option value="semestre">Resolvido</option>
+                    </select>
+               </div>
+               <div >
+                    <select name="semestre" class="bg-[#d3dcf5] w-32 h-8 text-center mb-2 outline-none">
+                        <option value="semestre">Pendente</option>
+                        <option value="semestre">Resolvido</option>
+                    </select>
+               </div>
+                
             </div>
         </div> 
 
@@ -68,7 +107,7 @@
 
 
         <div class="flex justify-end">
-            <a href="./../relatorio/index.php" class="bg-[#044865] text-white py-2 px-4 w-[150px] rounded-lg font-medium mt-8 mr-[40px] text-center">Guardar</a>
+            <a href="./../perfil/index.php" class="bg-[#044865] text-white py-2 px-4 w-[150px] rounded-lg font-medium mt-8 mr-[40px] text-center">Guardar</a>
 
         </div>
     </main>
