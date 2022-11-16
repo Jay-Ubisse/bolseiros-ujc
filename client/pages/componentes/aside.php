@@ -16,6 +16,6 @@
         <a href="../cadastrar-bolsa-parcial/" class="bg-[#044865] mt-1 p-2 hover:bg-[#078DB7] ">Cadastrar Bolsa Parcial</a>
         <a href="../ver-bolseiros/" class="bg-[#044865] mt-1 p-2 hover:bg-[#078DB7]">Ver Bolseiros</a>
         <a href="../relatorio/" class="bg-[#044865] mt-1 p-2 hover:bg-[#078DB7]">Relatório</a>
-        <a href="../../../index.php" class="bg-[#044865] mt-1 p-2 hover:bg-[#078DB7]">Sair</a>
+        <a href="../../../" class="bg-[#044865] mt-1 p-2 hover:bg-[#078DB7]">Sair</a>
     </div>
 </div>
