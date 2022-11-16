@@ -32,7 +32,7 @@
     </script>
 </head>
 
-<body>
+<body class="h-[calc(100vh-80px)] overflow-hidden">
     <header>
         <?php
         include "../componentes/header.php";
@@ -43,7 +43,7 @@
         include "../componentes/aside.php";
         ?>
     </aside>
-    <main class=" float-right w-4/5 mt-8">
+    <main class=" float-right w-4/5 mt-0 h-[calc(100vh-80px)] overflow-scroll">
         <h1 class=" w-1/3 m-auto font-semibold mt-10 text-xl">
             Cadastro de Bolsa Completa
         </h1>
@@ -274,7 +274,7 @@
                 </table>
 
                 <h1 class=" w-1/3 m-auto font-semibold mt-10 text-xl">
-                    Contacto de Emergencia
+                    Contacto de Emergência
                 </h1>
                 <table class="relative top-4">
                     <tbody>
@@ -328,20 +328,18 @@
                         
                     </tbody>
                 </table>
-
-                
             </fieldset>
             <fieldset id="parte-2">
 
                 <h1 class=" w-1/3 m-auto font-semibold mt-10 text-xl">
-                    Situacao Escolar
+                    Situação Escolar
                 </h1>
 
                 <table class="relative top-4">
                     <tbody>
                         <tr>
                             <td  class="p-1">
-                                <label for="name" class="font-semibold">Ano de conclusao do nivel medio</label>
+                                <label for="name" class="font-semibold">Ano de conclusão do nivel medio</label>
                                 <input type="date" name="medio" size="10" class="bg-gray-300 focus:outline-none">
                             </td>
                         </tr>
@@ -431,9 +429,9 @@
                         </tr>
                     </tbody>
                 </table>
+                <input type="button" id="anterior" value="Anterior" class="bg-[#044865] text-center text-white font-medium py-2 px-4 mx-4 w-[200px] rounded-lg">
+                <input type="submit" value="Cadastrar" onclick="testar" class="bg-[#044865] text-center text-white font-medium py-2 px-4 w-[200px] rounded-lg">
             </fieldset>
-            <input type="button" id="anterior" value="Anterior" class="bg-[#044865] text-center text-white font-medium py-2 px-4 mx-4 w-[200px] rounded-lg">
-            <input type="submit" value="Cadastrar" onclick="testar" class="bg-[#044865] text-center text-white font-medium py-2 px-4 w-[200px] rounded-lg">
         </form>
     </main>
 </body>

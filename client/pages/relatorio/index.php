@@ -7,7 +7,7 @@
     <title>Relatório - Gestão de Bolseiros</title>
     <link rel="stylesheet" href="./../../assets/styles/output.css">
 </head>
-<body>
+<body class="h-[calc(100vh-80px)] overflow-hidden">
 <header>
         <?php
             include "../componentes/header.php";
@@ -19,7 +19,7 @@
         ?>
     </aside>
 
-    <main class="clear-right flex flex-col">
+    <main class="clear-right flex flex-col h-[calc(100vh-80px)] overflow-scroll">
        
        <div class="flex justify-center mt-8 mx-10 ml-[550px]">
             <input type="text" placeholder="Bolseiro completo" class=" bg-gray-300 w-72 placeholder:text-black text-left p-2 px-4">
