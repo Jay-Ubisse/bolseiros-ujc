@@ -27,7 +27,7 @@
         </div>
 
                 <!-- tabela -->
-         <table class="table-auto border-collapse border border-slate-400 mt-32 w-[900px] ml-28">
+         <table class="table-auto border-collapse border border-slate-400 mt-20 w-[900px] ml-28">
             <thead>
                <tr class="bg-[#044865] ">
                   <th class= "  text-base text-white py-1 ">Nome</th>

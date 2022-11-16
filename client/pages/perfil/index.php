@@ -30,7 +30,7 @@
             <a href="./../sansao/index.php" class="bg-[#044865] text-center text-white font-medium py-2 px-2 w-[170px] rounded-lg">Regulamento</a>
             <a href="../ver-notas/index.php" class="bg-[#044865] text-center text-white font-medium py-2 px-2 w-[170px] rounded-lg">Aproveitamento</a>
             <a href="#" class="bg-[#044865] text-center text-white font-medium py-2 px-2 w-[170px] rounded-lg">Relat&oacute;rio Semestral</a>
-            <a href="#" class="bg-[#044865] text-center text-white font-medium py-2 px-2 w-[170px] rounded-lg">Imprimir</a>
+           
         </div>
 
         <!-- <div class="flex justify-end">
