@@ -20,7 +20,7 @@
     </aside>
 
     <main class="clear-right flex flex-col">
-        <div class="text-center text-2xl font-bold mt-5 text-[#044865] ">Dados do Bolseiro</div>
+        <div class="text-center text-2xl font-bold mt-5 text-[#044865]">Dados do Bolseiro</div>
 
         <div class="bg-gray-100 w-[940px] h-[420px] flex justify-center ml-20 mt-3">
                 <!-- Carregue aqui os dados do bolseiro -->

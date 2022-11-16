@@ -44,7 +44,7 @@
         ?>
     </aside>
     <main class=" float-right w-4/5 mt-0 h-[calc(100vh-80px)] overflow-scroll">
-        <h1 class=" w-1/3 m-auto font-semibold mt-10 text-xl">
+        <h1 class=" w-1/3 m-auto font-bold mt-10 mb-10 text-2xl text-[#044865]">
             Cadastro de Bolsa Completa
         </h1>
         <form action=""  class="w-[93%] ml-24">
@@ -53,7 +53,7 @@
                     <div class="w-24 min-h-24  p-6 text-center bg-gray-300 float-left border-solid border-gray-300 border-2">
                         <h1 class="font-semibold">Foto</h1>
                     </div>
-                    <h1 class=" w-1/3 m-auto font-semibold text-xl">
+                    <h1 class=" w-1/3 m-auto font-bold text-xl text-[#044865]">
                         Dados do Bolseiro
                     </h1>
                 </div>
@@ -152,7 +152,7 @@
                         </tr>
                     </tbody>
                 </table>
-                <h1 class=" w-1/3 m-auto font-semibold mt-10 text-xl">
+                <h1 class=" w-1/3 m-auto mt-10 font-bold text-xl text-[#044865]">
                     Dados do Pai
                 </h1>
                 <table class="relative top-4">
@@ -213,7 +213,7 @@
                 </table>
 
 
-                <h1 class=" w-1/3 m-auto font-semibold mt-10 text-xl">
+                <h1 class=" w-1/3 m-auto mt-10 font-bold text-xl text-[#044865]">
                     Dados da M&atilde;e
                 </h1>
                 <table class="relative top-4">
@@ -273,7 +273,7 @@
                     </tbody>
                 </table>
 
-                <h1 class=" w-1/3 m-auto font-semibold mt-10 text-xl">
+                <h1 class=" w-1/3 m-auto mt-10 font-bold text-xl text-[#044865]">
                     Contacto de Emergência
                 </h1>
                 <table class="relative top-4">
@@ -331,7 +331,7 @@
             </fieldset>
             <fieldset id="parte-2">
 
-                <h1 class=" w-1/3 m-auto font-semibold mt-10 text-xl">
+                <h1 class=" w-1/3 m-auto mt-10 font-bold text-xl text-[#044865]">
                     Situação Escolar
                 </h1>
 
@@ -363,8 +363,8 @@
                     </tbody>
                 </table>
 
-                <h1 class=" w-1/3 m-auto font-semibold mt-10 text-xl">
-                    Estado de saude
+                <h1 class=" w-1/3 m-auto mt-10 font-bold text-xl text-[#044865]">
+                    Estado de saúde
                 </h1>
 
                 <table class="relative top-4">
@@ -392,7 +392,7 @@
                     </tbody>
                 </table>
                 
-                <h1 class=" w-1/3 m-auto font-semibold mt-10 text-xl">
+                <h1 class=" w-1/3 m-auto mt-10 font-bold text-xl text-[#044865]">
                     Alocação
                 </h1>
                 <table class="relative top-4">

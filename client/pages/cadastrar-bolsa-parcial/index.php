@@ -23,18 +23,15 @@
 
     
     <main class=" float-right w-4/5 mt-8 h-[calc(100vh-80px)] overflow-scroll">
-        <h1 class=" w-1/3 m-auto font-semibold mt-10 text-xl">
+        <h1 class=" w-1/3 m-auto font-bold mt-10 mb-10 text-2xl text-[#044865]">
             Cadastro de Bolsa Parcial
         </h1>
-        <br>
-        <br>
-
         <form action="" method="POST" class="w-[93%] ml-24">
             <div>
                 <div class="w-24 min-h-24  p-6 text-center bg-gray-300 float-left border-solid border-gray-300 border-2">
                     <h1 class="font-semibold">Foto</h1>
                 </div>
-                <h2 class=" w-1/3 m-auto font-semibold text-xl">
+                <h2 class=" w-1/3 m-auto mt-10 font-bold text-xl text-[#044865]">
                     Dados do Bolseiro
                 </h2>
             </div>
@@ -134,7 +131,7 @@
                         </tr>
                     </tbody>
             </table>
-                <h2 class=" w-1/3 m-auto font-semibold mt-10 text-xl">
+                <h2 class=" w-1/3 m-auto mt-10 font-bold text-xl text-[#044865]">
                     Dados do Pai
                 </h2>
             <table class="relative top-4">
@@ -197,7 +194,7 @@
             </table>
 
 
-                <h2 class=" w-1/3 m-auto font-semibold mt-10 text-xl">
+                <h2 class=" w-1/3 m-auto mt-10 font-bold text-xl text-[#044865]">
                     Dados da M&atilde;e
                 </h2>
             <table class="relative top-4">
@@ -256,7 +253,7 @@
                         
                     </tbody>
             </table>
-                <h2 class=" w-1/3 m-auto font-semibold mt-10 text-xl">
+                <h2 class=" w-1/3 m-auto mt-10 font-bold text-xl text-[#044865]">
                     Contacto de Emergencia
                 </h2>
              <table class="relative top-4">
@@ -300,7 +297,7 @@
                         </tr>  
                     </tbody>    
             </table> 
-                <h2 class=" w-1/3 m-auto font-semibold mt-10 text-xl">
+                <h2 class=" w-1/3 m-auto mt-10 font-bold text-xl text-[#044865]">
                     Situacao Escolar
                 </h2>
             <table class="relative top-4">
