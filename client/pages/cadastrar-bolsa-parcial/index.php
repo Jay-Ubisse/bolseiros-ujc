@@ -7,14 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastrar Bolsa parcial - Gestão de Bolseiros</title>
     <link rel="stylesheet" href="./../../assets/styles/output.css">
-    <style>
-        #aside {
-            height: calc(100vh + 90px);
-        }
-    </style>
 </head>
 
-<body>
+<body class="h-[calc(100vh-80px)] overflow-hidden">
     <header>
         <?php
         include "../componentes/header.php";
@@ -27,7 +22,7 @@
     </aside>
 
     
-    <main class=" float-right w-4/5 mt-8">
+    <main class=" float-right w-4/5 mt-8 h-[calc(100vh-80px)] overflow-scroll">
         <h1 class=" w-1/3 m-auto font-semibold mt-10 text-xl">
             Cadastro de Bolsa Parcial
         </h1>
