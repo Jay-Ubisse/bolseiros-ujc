@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Tempo de geração: 08-Nov-2022 às 17:00
+-- Tempo de geração: 06-Dez-2022 às 15:27
 -- Versão do servidor: 10.4.24-MariaDB
 -- versão do PHP: 8.1.6
 
@@ -61,21 +61,32 @@ INSERT INTO `bolsa` (`id`, `tipo`) VALUES
 
 CREATE TABLE `bolseiro` (
   `id` int(11) NOT NULL,
-  `primeiro_nome` varchar(60) NOT NULL,
-  `segundo_nome` varchar(60) NOT NULL,
-  `apelido` varchar(60) NOT NULL,
+  `primeiro_nome` varchar(20) NOT NULL,
+  `segundo_nome` varchar(20) NOT NULL,
+  `apelido` varchar(20) NOT NULL,
   `data_nascimento` date NOT NULL,
   `provincia` varchar(45) NOT NULL,
   `distrito` varchar(45) NOT NULL,
-  `b.i` varchar(45) NOT NULL,
+  `bi` varchar(45) NOT NULL,
+  `nuit` int(9) NOT NULL,
   `sexo` char(1) NOT NULL,
+  `orfao` enum('nao','pai','mae','ambos') NOT NULL,
   `contacto1` int(15) NOT NULL,
   `contacto2` int(15) NOT NULL,
   `ano_ingresso` date NOT NULL,
   `codigo_estudante` int(7) NOT NULL,
+  `email` varchar(80) NOT NULL,
+  `ano_saida` date NOT NULL,
   `id_bolsa` int(11) NOT NULL,
   `id_curso` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Extraindo dados da tabela `bolseiro`
+--
+
+INSERT INTO `bolseiro` (`id`, `primeiro_nome`, `segundo_nome`, `apelido`, `data_nascimento`, `provincia`, `distrito`, `bi`, `nuit`, `sexo`, `orfao`, `contacto1`, `contacto2`, `ano_ingresso`, `codigo_estudante`, `email`, `ano_saida`, `id_bolsa`, `id_curso`) VALUES
+(5, 'dsfdsfdsf', 'dfdsfsdfdsf', 'sdfsdfdsfdsf', '2022-10-30', 'Maputo', 'fdsfsfsdfsf', '1232152556A', 45436436, 'F', 'nao', 3544353, 43534534, '2022-10-30', 2424, 'fafasfhahsghjas@gmail.com', '2022-12-01', 2, 1);
 
 -- --------------------------------------------------------
 
@@ -258,9 +269,9 @@ INSERT INTO `cadeira` (`id`, `nome`, `id_semestre`) VALUES
 
 CREATE TABLE `contacto_emergencia` (
   `id` int(11) NOT NULL,
-  `primeiro_nome` varchar(60) NOT NULL,
-  `segundo_nome` varchar(60) NOT NULL,
-  `apelido` varchar(60) NOT NULL,
+  `primeiro_nome` varchar(20) NOT NULL,
+  `segundo_nome` varchar(20) NOT NULL,
+  `apelido` varchar(20) NOT NULL,
   `parentesco` varchar(45) NOT NULL,
   `contacto1` int(15) NOT NULL,
   `contacto2` int(15) NOT NULL,
@@ -327,8 +338,8 @@ CREATE TABLE `estado_saude` (
 
 CREATE TABLE `funcionario` (
   `id` int(11) NOT NULL,
-  `nome` varchar(60) NOT NULL,
-  `apelido` varchar(60) NOT NULL,
+  `nome` varchar(20) NOT NULL,
+  `apelido` varchar(20) NOT NULL,
   `cargo` varchar(45) NOT NULL,
   `id_usuario` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -357,9 +368,9 @@ CREATE TABLE `kit` (
 
 CREATE TABLE `mae` (
   `id` int(11) NOT NULL,
-  `primeiro_nome` varchar(60) NOT NULL,
-  `segundo_nome` varchar(60) NOT NULL,
-  `apelido` varchar(60) NOT NULL,
+  `primeiro_nome` varchar(20) NOT NULL,
+  `segundo_nome` varchar(20) NOT NULL,
+  `apelido` varchar(20) NOT NULL,
   `data nascimento` date NOT NULL,
   `provincia` varchar(45) NOT NULL,
   `distrito` varchar(45) NOT NULL,
@@ -391,16 +402,16 @@ CREATE TABLE `nota` (
 
 CREATE TABLE `pai` (
   `id` int(11) NOT NULL,
-  `primeiro_nome` varchar(60) NOT NULL,
-  `segundo_nome` varchar(60) NOT NULL,
-  `apelido` varchar(60) NOT NULL,
-  `provincia` varchar(45) NOT NULL,
-  `distrito` varchar(45) NOT NULL,
-  `data nascimento` date NOT NULL,
-  `contacto1` int(15) NOT NULL,
-  `contacto2` int(15) NOT NULL,
-  `profissao` varchar(50) NOT NULL,
-  `entidade_patronal` varchar(50) NOT NULL,
+  `primeiro_nome` varchar(20) NOT NULL,
+  `segundo_nome` varchar(20) DEFAULT NULL,
+  `apelido` varchar(20) DEFAULT NULL,
+  `provincia` varchar(45) DEFAULT NULL,
+  `distrito` varchar(45) DEFAULT NULL,
+  `data nascimento` date DEFAULT NULL,
+  `contacto1` int(15) DEFAULT NULL,
+  `contacto2` int(15) DEFAULT NULL,
+  `profissao` varchar(50) DEFAULT NULL,
+  `entidade_patronal` varchar(50) DEFAULT NULL,
   `id_bolseiro` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -473,6 +484,13 @@ CREATE TABLE `situacao_escolar` (
   `distrito` varchar(80) NOT NULL,
   `id_bolseiro` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Extraindo dados da tabela `situacao_escolar`
+--
+
+INSERT INTO `situacao_escolar` (`id`, `ano_conclusao`, `escola_frequentada`, `provincia`, `distrito`, `id_bolseiro`) VALUES
+(3, '2022-10-30', 'dgdsh', 'Maputo', 'jhgjhhjjj', 5);
 
 -- --------------------------------------------------------
 
@@ -640,7 +658,7 @@ ALTER TABLE `bolsa`
 -- AUTO_INCREMENT de tabela `bolseiro`
 --
 ALTER TABLE `bolseiro`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT de tabela `cadeira`
@@ -718,7 +736,7 @@ ALTER TABLE `semestre`
 -- AUTO_INCREMENT de tabela `situacao_escolar`
 --
 ALTER TABLE `situacao_escolar`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT de tabela `usuario`

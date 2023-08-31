@@ -1,9 +1,9 @@
 <?php
 require_once "Bolseiro.php";
-require_once "./conexao/conexao.php";
+require_once "./connection/connection.php";
 
 
-$b = new Bolseiro("bolseiros","localhost","root","");
+$b = new Bolseiro();
 
 SESSION_START();
 
@@ -35,7 +35,7 @@ SESSION_START();
             $codigo = addslashes($_POST['codigo']);
 
             if(!empty($curso) && !empty($nome_B) && !empty($segundo_B) && !empty($apelido_B) && !empty($data_B) && !empty($bi_B) && !empty($genero_B) && !empty($provincia_B) && !empty($distrito_B) && !empty($contacto1_B) && !empty($contacto2_B) && !empty($email_B) && !empty($ingresso_B) && !empty($saida_B) && !empty($codigo)){
-                $b->cadastrarBolseiroCompleto($curso, $nome_B, $segundo_B, $apelido_B, $data_B, $bi_B, $nuit_B, $genero_B, $orfao_B, $provincia_B, $distrito_B, $contacto1_B, $contacto2_B, $email_B, $ingresso_B, $codigo);
+                $b->cadastrarBolseiroCompleto($curso, $nome_B, $segundo_B, $apelido_B, $data_B, $bi_B, $nuit_B, $genero_B, $orfao_B, $provincia_B, $distrito_B, $contacto1_B, $contacto2_B, $email_B, $ingresso_B, $codigo, $saida_B);
             }
         }
 

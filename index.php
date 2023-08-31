@@ -29,7 +29,7 @@
                 </div>
     
         </div>
-        <form class="flex flex-col justify-center h-[calc(80vh)] mt-14 bg-slate-200 w-2/5 p-28"  action="./server/controller/login.php" method="POST">
+        <form class="flex flex-col justify-center h-[calc(80vh)] mt-14 bg-slate-200 w-2/5 p-28"  action="./server/controller/login/login.php" method="POST">
           
             <label for="Usuaio" class="font-bold">Utilizador</label>
                 <input type="text" name="utilizador" class=" border-black rounded-lg h-12 outline-none w-80 my-5">

@@ -1,5 +1,8 @@
+<?php
+    require_once "../../../server/connection/connection.php";
+?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
     <meta charset="UTF-8">
@@ -23,19 +26,16 @@
 
     <main class="clear-right flex flex-col h-[calc(100vh-80px)] overflow-scroll">
         <div class="flex justify-center mt-8 mx-10 ml-80">
-            <input type="text" placeholder="Bolseiro completo" class=" bg-gray-300 w-56 placeholder:text-black text-left p-2 px-4">
+            <input type="text" placeholder="Nome do Bolseiro" class=" bg-gray-300 w-56 placeholder:text-black text-left p-2 px-4">
             <button class="bg-[#044865] text-center text-white w-32 ml-2 font-medium"> Pesquisar</button>
         </div>
 
-        <div>
-            <table class=" table-auto flex justify-center mt-32">
+        <!-- <div>
+            <table >
 
                 <tbody class="flex flex-col">
                     <tr class=" border-b-2 border-white">
-                        <td>
-                            <div class="w-10 h-10 bg-[#F2F4F9] text-center text-lg mr-1">1</div>
-
-                        </td>
+                       
                         <td>
                             <div class="bg-[#F2F4F9] text-lg w-96 h-10 px-4 py-1"> Gedia Genifa Lucas Jangamo</div>
 
@@ -69,10 +69,7 @@
                     </tr>
 
                     <tr class="">
-                        <td>
-                            <div class="w-10 h-10 bg-[#F2F4F9] text-center text-lg mr-1">3</div>
-
-                        </td>
+                        
                         <td>
                             <div class="bg-[#F2F4F9] text-lg w-96 h-10 px-4 py-1"> Joaquim Ubisse</div>
 
@@ -88,7 +85,43 @@
                     </tr>
                 </tbody>
             </table>
+        </div> -->
+
+        <div>
+            <table class=" table-auto block justify-center mt-32">
+                <thead>
+                        <tr>
+                            <th >Nome</th>
+                            <th>Ac&ccedil;&otilde;es</th>
+                        </tr>
+                </thead>
+
+                <?php 
+                        $stmt = $connection->query("SELECT * FROM bolseiro ");
+                        $stmt->execute();
+                        $resultado = $stmt->fetchAll(PDO::FETCH_ASSOC);        
+                        foreach ($resultado as $bolseiro) {
+                ?>
+                        
+                <tbody>
+                    <tr>
+
+                        <td class="bg-[#F2F4F9] text-lg w-96 h-10 px-4 py-1">
+                            <?php echo $bolseiro['primeiro_nome'];?> <?php echo $bolseiro['apelido'];?>
+                        </td>  
+
+                        <td>
+                            <a href="editar.php?id=<?php echo $bolseiro['id'];?>" class="bg-[#044865] text-white mr-0 py-2 px-4 font-medium">Editar</a>
+                            <a href="delete.php?id=<?php echo $bolseiro['id'];?>" class="bg-[#044865] text-white mr-0 py-2 px-4 font-medium">Excluir</a>
+                        </td>
+
+                    </tr>
+
+                    <?php } ?>
+                </tbody>
+            </table>
         </div>
+       
     </main>
 </body>
 

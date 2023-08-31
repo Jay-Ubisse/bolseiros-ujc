@@ -1,4 +1,5 @@
 <?php
+    require_once '../../connection/connection.php';
     session_start();
 
      class Usuario{
@@ -6,10 +7,10 @@
         public function login($utilizador , $senha){
             global $connection;
 
-            $sql = "SELECT * FROM usuario WHERE utilizador = :utilizador";
-            $sql = $connection->prepare($sql); 
+            $sql = $connection->prepare("SELECT * FROM usuario WHERE utilizador = :utilizador"); 
             $sql-> bindValue(":utilizador", $utilizador);
             $sql->execute();
+
 
             if($sql->rowCount() > 0){
                 $resultado = $sql->fetch(PDO::FETCH_ASSOC);

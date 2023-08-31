@@ -1,5 +1,4 @@
 <?php 
-    require_once '../connection/connection.php';
     require_once 'Usuario.php'; 
 
 
@@ -10,8 +9,9 @@
         $senha = addslashes($_POST['senha']);
       
         if($n->login($utilizador, $senha) == true){
-            header("Location: ../../client/pages/pagina-inicial/");
+            
+            header("Location: ../../../client/pages/pagina-inicial/");
         } else{
-           header("location: ../../");
+           echo "Falha no Login";
         }
 ?>
